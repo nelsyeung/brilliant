@@ -1,4 +1,4 @@
 # Brilliant Solutions Template
-[http://brilliant.org](Brilliant.org) solutions template for [http://codepen.io/](Code Pen).
+[Brilliant.org](http://brilliant.org) solutions template for [Code Pen](http://codepen.io/).
 
-Example: [http://codepen.io/nelsyeung/pen/XmwEvQ](Complementary Counting)
+Example: [Complementary Counting](http://codepen.io/nelsyeung/pen/XmwEvQ)
