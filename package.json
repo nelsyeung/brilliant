@@ -1,0 +1,20 @@
+{
+  "name": "brilliant",
+  "version": "1.0.0",
+  "description": "Brilliant solution",
+  "main": "index.js",
+  "scripts": {
+    "browser-sync": "browser-sync start --server --files 'index.html, styles.css, script.js'",
+    "sass:dev": "node-sass --source-map true --output-style nested -w styles.scss styles.css",
+    "sass:build": "node-sass --output-style compressed styles.scss styles.css",
+    "start": "parallelshell 'npm run sass:build && npm run sass:dev' 'npm run browser-sync'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nelson Yeung",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.10.0",
+    "node-sass": "^3.4.2",
+    "parallelshell": "^2.0.0"
+  }
+}
